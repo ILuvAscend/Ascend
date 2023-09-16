@@ -1,0 +1,512 @@
+NOTE: DO NOTE TYPE QUOTES AND PARENTHESES, examples of correct way: /fast all, /send illtide bat's wing, /withdraw grime's skin [200]
+            NOTE: Text in (parentheses) are optional
+NOTE: Text in "quotes" will be defined by user
+NOTE: In most cases (all) means all open clients, but not in the case of banking commands.
+
+            /p (all) - play
+            /s (all) - stop
+
+            /safe - TOGGLE all visible 'hax' and hide the program. (hasnt been updated in a while, possibly doesnt hide everything now)
+
+/save "template" - Create/Save settings as a template.
+/load (all) "template" - Load a template.
+
+/fast (all) - Set walk delay to 160 ms.
+            /med (all) - Set walk delay to 260 ms.
+            /slow (all) - Set walk delay to 410 ms.
+            /stop (all) - Stop walking/following.
+/follow (all) "name" ("#") - Follow someone, set distance.
+/walk (all) "destination" - Walk to an area on the list.
+(see bottom of .txt for full list)
+
+/g "name"or(alts)or(friends) - invite someone into your group.
+/fg "name"or(alts)or(friends) - force yourself into an existing group.
+
+/calc on - Turn on calculator (starts all 3 if none checked).
+            /calc off - Turn off calculator.
+            /calc reset - Reset calculator data.
+            /calc - Request calculator data.
+
+            LEGIT BANKING ETC. (use at npc)
+/d(a) "item" - deposit item (uses skill chant)
+/w(a) "item" - withdraw item (uses skill chant)
+/b "item" - buys item (skill chant)
+/drop (all) "item" - drops all of said item below you. '/drop all chaos' to drop chaos junk
+/r - say repair all (skill chant)
+/fix - Walks to nearest repair NPC and says repair all (skill chant)
+
+HAX BANKING (uses Nearest Npc)
+            /withdraw - activate withdraw item script.
+/withdraw (all) "item" ("[#]") - withdraw item, optional #
+format: /withdraw blue frog meat [10]
+            /deposit - activate deposit item script.
+/deposit (all) "item" ("[#]") - deposit item, optional #
+/send - activate send parcel script. (do not parcel STACKS)
+/send "name" "item" - bypass the scripts and just send the item to the person
+/rec (all) - receives parcel(s).
+            /repair - repairs all items.
+
+OTHER STUFF
+            /hide (all) - toggles hide checkbox for rogues/white bat
+            /b - disable body animations checkbox toggle
+            /n - Toggle walls.
+            /t - Toggle dion Timer/ard cradh/DS/DS2/Demise Tracker
+            /m - Toggle Monster Form.
+/m"#" - Switch monster form number.
+/map - Get current map number.
+            /item - Get first item slot image.
+            /icon - Get list of icon image #s from spell bar (whats currently casted on you)
+            /banklist - creates and opens a .txt file alphabetical list of your banked items (using nearest banker)
+            /quest - opens an in-game peek-type menu of That chars quests timers
+            /boss - opens an in-game peek-type menu of that chars boss kill timers
+            /ao - casts gramail prayer remove all spells (ao sith)
+            /ref - casts gramail prayer reflect
+            /fiobean or /diabean - casts fiosachd prayer dia bean
+            /fiohide - casts fiosachd prayer group hide
+            /song - casts prayer and prays for scrolls
+            /higgle - higgles wine and drops it repeatedly till 180 wine higgled or pause program (at abel bank)
+            /fiorsrad - buys 30 fior srads instantly at black market (required for yule tree event in december)
+            /readmail - instantly reads all your mail to get rid of flickering mail icon (must manually open mail/scroll to bottom/close it first)
+/beg "item" - instantly give beggar an item (gotta be in view)
+/dojo - walks to wasteland and enters dojo (same effect as clicking the checkbox)
+/labor "name" - walks to nearest bank and labors till you're out
+
+QUEST
+            /teach - says 'please teach me blah blah' at sapphire stream (it knows your dugon level already)
+            /done - says 'i finished blah blah' at sapphire stream
+            /darkmaze - does the small heart quest popups/walking up till dark maze entry (must have beothaich for quest)
+            /thel - The Letter quest, meant to be done on a male and female char together, dual logged and GROUPED
+            /molo - mothers love quest, walks to nearest restaurant and turns in Hydele/personaca Or Betony deum (must have potions already)
+            /tali - instantly does popups to buy 2nd half talisman at nobis bank
+            /pearl - Giant Pearl quest, walks to lynith sea popup location, PICKS UP swimwear, equips it, gets pearl, drops both
+            /tent - dragon scale sword quest, walks to mileth tavern, starts quest, walks to sw6 dragon eye (must have Tentacle already)
+            /law - law quest, all the walking + popups, waits for boss fights, waits for rehide at lr1 npc, (must have 5 of each giant remains)
+            /wd (all) - say Water Dungeon chant to progress floors.
+            /slab - walks to hwarone inn and says marble slab, walks to lr ent-waits for hide, walks to lr4 slab room
+
+            EVENT
+            /meg - walks to mt merry ent and clicks mother erbie to claim prize AFTER KILLING 20 chocolate erbies (December)
+            /frosty - walks to loures fountain and claims free gifts (December)
+            /yule - does some yule event automation, i dont even remember what (December)
+            /wish - does some make a wish event automation, dont remember what (January)
+            /attire - walks to paradise and claims the free beach attire overcoat (free war bag trade in~) (July)
+            /hat - walks to loures fountain and claims free sun protection (billed cap) (July)
+
+            Some Item names can be typed shorthand for withdrawing/depositing etc commands
+            hem = hemloch deum
+            kom = komadium
+            suc = succubus's hair
+            wb and wbag and war and warbag = warranty bag
+            rec = recall scroll
+            gsf = golden starfish
+            double = double bonus exp-ap(x5)
+            vday = vday bonus exp-ap(x5)
+            10vday = vday bonus exp-ap(x10)
+            xmas d = xmas double exp-ap(x5)
+            bog = bang of gales
+            bos = band of storms
+            div = divinities staff
+            eagle = eagles grasp
+            hell = hellreavers blade
+            inferno = inferno blade
+            satchel and satch = satchel of goods
+            thun = thunderfury
+            shroom and greatest exp = greatest experience mushroom(x3)
+            rune and greatest ab and greatest ap = greatest ability rune(x3)
+            equip = equipment repair
+            college = mileth college portmanteau
+            daily and daily p = daily prize box
+            chadul and chadul p = chadul prize box
+            muisir and muisir p = muisir prize box
+            arena and arena h = arena host bag
+            meg and mother = mother erbie gift
+            apbox2 and ap box2 and abbox2 and ab box2 = ability and experience box 2
+            apbox1 and ap box1 and abbox1 and ab box1 = ability and experience box 1
+            apgift2 and ap gift2 and abgift2 and ab gift2 = ability and experience gift 2
+            apgift2 and ap gift2 and abgift2 and ab gift1 = ability and experience gift 1
+            andor and andor c = andor chest
+            andor q = andor queen's chest
+            queen = queen's chest
+            big and big t and big suo = big troupe prize bag
+            small and small t and small suo = small troupe prize bag
+            troupe and suomi t = suomi troupe bag
+            monk s = monk's skull
+            priest s and pri s = priest's skull
+            rogue s and rog s = priest's skull
+            warrior s and war s = priest's skull
+            wizard s and wiz s = priest's skull
+            armor = all ab 20/22/27/25/45 armors (/da only)
+            cea = str set (/da only)
+            lua = int set (/da only)
+            gli = wis set (/da only)
+            cai = con set (/da only)
+            fio = dex set (/da only)
+
+Walk destinations: (say /walk altar, /walk cc7, etc)
+            bank - walks to the NEAREST bank, abel, mileth, ruc, or tagor
+            <town> bank - walks to that specific bank (use mileth/abel/piet/ruc/undine/tagor/suomi/blackstar/asilon/noam)
+            <town> ent - walks to that specific towns ent (use mileth/abel/piet/ruc/bs)
+            <town> church - walks to specific church (use mileth/tagor/ruc/blackstar)
+            <town> inn - walks to that specific inn (use mileth/abel/piet/ruc/tagor/suomi)
+            <town> tav - walks to specific tavern (use mileth/abel/piet/ruc/undine/tagor/suomi)
+            <town> rest - walks to specific restaurant (use mileth/abel/piet/ruc/undine/tagor/suomi)
+            <town> tai - walks to specific tailor (use mileth/abel/piet/ruc/undine/suomi)
+            <town> arm - walks to specific armory (use mileth/abel/piet/ruc/undine/suomi)
+            <town> weap - walks to specific weapon shop (use mileth/abel/piet/ruc/undine/suomi)
+            <town> fig - walks to combat skill master (use mileth/abel/suomi)
+            <town> pri - walks to white magic master (use mileth/piet/suomi)
+            <town> rog - walks to special skill master (use mileth/ruc/suomi)
+            <town> wiz - walks to black magic master (use mileth/undine/suomi)
+            <religion> - walks to temple (use glioca/fio/cean/gramail/luathas/sgrios/cail/deoch)
+
+            CREANTS
+            shamen - shamensyth final
+            medu - medusa final
+            phoe - phoenix final
+            tauren - tauren final
+
+            PLAMIT QUEST
+            fire - fire spirit temple
+            earth/med cit/sacred - noam sacred grounds
+
+            MILETH
+            mileth - mileth ent
+            altar - mileth altar
+            dar/mileth wiz - mileth black magic master
+            daithi/mileth rog - mileth special skill master
+            torrance/mileth arm - mileth armor shop
+            callough/mileth weap - mileth weapon shop
+            brody/mileth tai/mileth goods - mileth goods shop
+            colm/mileth mess - mileth messenger
+            cian/mileth magic - mileth magic shop
+            toc - temple of choosing
+            keallach/mileth fig - mileth combat skill master
+            devlin/mileth pri - mileth white magic master
+            mcrypt/m crypt/milcrypt/mil crypt - mileth crypt
+            mcrypt4/mcrypt 4/bat - Crypt 4
+            mcrypt11/m crypt 11/chest - Crypt 11
+            mcrypt27/mcrypt 27/suc - Crypt 27
+            uistean/mileth lib - mileth library
+            steafan/litature/mileth lit - mileth literature
+            rory/history/mileth his - mileth history
+            parthalan/lore/mileth lo - mileth lore
+            conn/philosophy/mileth phi - mileth philosophy
+            contest/mileth con - mileth contest hall
+            meaven/glioca - glioca temple
+            mileth commons/mil commons/m com/mcom - mileth commons
+            mileth hall/mil hall/m hall/mhall - mileth hall
+            mileth justice hall/mil jhall/m jhall/mjhall - mileth justice hall
+
+            WEST WOODLAND
+            ww/ww ent - west woodland
+
+            Kasmanium Mine
+            kas/kasmine/kas mine - kasmanium mine
+
+            GRASS FIELD
+            grassfield/grass field/gf/base camp - grass fields
+            battlefield/battle field/bf/law - Grass Battle Field5
+
+            EAST WOODLAND
+            ew/ew 14/ew14 - ew 14 ent
+            ew 15/ew15 - ew 15 glade
+            ew18/ew 18/shrieker - ew 18
+            ew19/ew 19/fae - ew 19
+            ew 20/ew20 - ew 20 glade
+
+            ABEL
+            abel - abel ent
+            audny/fiosachd - fio temple
+            abel tav - abel tavern
+            acrypt/abel dun/leech - abel crypt
+            acrypt5/acrypt 5 - abel crypt 5
+            acrypt10/acrypt 10 - abelc rypt 10
+            abel inn
+            home/abel fish - abel fish market
+            abel rest - abel restaurant
+            arnljot/abel tai - abel tailor
+            abel goods - abel goods shop
+            steinar/abel arm - abel armor shop
+            vidar/abel weap - abel weap shop
+            bodil/abel fig - abel combat skill master
+
+            PIET
+            piet - piet ent
+            erika/cean - cean temple
+            jilt/piet tai - piet tailor
+            pcrypt/crab/piet dun - piet crypt
+            pcrypt11/pcrypt 11/gfly - piet crypt 11
+            pcrypt12/pcrypt 12/rock - piet crypt 12
+            pcrypt17/pcrypt 17/gremlin - piet crypt 17
+            leo/piet arm - piet armor shop
+            gunnar/piet weap - piet weap shop
+            narve/piet pri - piet white magic master
+
+            UNDINE
+            evania - cail temple
+            kiril/undine wiz - undine black magic master
+            undine goods - undine goods shop
+            hali/undine tai - undine tailor
+            alexios/undine arm - undine armor shop
+            undine weap - undine weapon shop
+            ghloe/undine tav - undine tavern
+            damara/undine rest - undine restaurant
+            muisir - muisir ent
+            ud field - undine field
+
+            RUCESION
+            ruc - ruc ent
+            baltasar/ruc rog - ruc special skill master
+            huberto/ruc tai - rucesion tailor
+            ruc goods - ruc goods shop
+            marcelo/ruc weap - ruc weapon shop
+            carlos/ruc arm - ruc armor shop
+            ereno/ruc church - ruc church
+            gabriela/luathas - luathas temple
+            rucesion commons/ruc commons/r com/rcom - ruc commons
+            ruceion hall/ruc hall/r hall/rhall - ruc hall
+            rucesion justice hall/ruc jhall/r jhall/rjhall - ruc justice hall
+            dub castle - dubhaim castle
+            dub castle north - dubhaim castle north 1-1
+            greim/sgrios - sgrios temple
+
+            TAGOR
+            lost path - ent to lost path
+            shay/tagor black - tagor warrior blacksmith
+            colan/war trainer1 - warrior trainer
+            grouw/war trainer2 - warrior trainer2
+            aurel/tagor church - tagor church
+            cosmin/tagor mess - tagor messenger
+            matei/tagor magic - tagor magic shop
+            petru/tagor arm - tagor armor shop
+            stefan/ranger - ranger station
+            nigel/ciad/tiota/treas/tagor empty - tagor empty building
+            areini/tagor pet - tagor pet store
+            tereza/tagor rest - tagor restaurant
+            elena/tagor tav - tagor tavern
+            ein/manor - eingren manor
+
+            ARENA
+            arena/arena ent - coliseum arena
+            hosted - hosted arena gaunt
+            team arena - team arena lobby
+            ba/balanced arena - balanced arena
+
+            PRAVAT CAVE
+            pc west/bahadir/ozkan/pravat goblin/pc gob - west entrance
+            pc heart/pricha/phailin/mspg/pravat grim/pc grim - pravat heart
+            cross - pravat cross
+
+            BLACKSTAR
+            blackstar ent/bs ent - blackstar village ent
+            blackstar/bs - blackstar crypt ent
+            blackstar arm/bs arm - blackstar village armory
+            blackstar bank/bs bank - blackstar village bank
+            blackstar inn/bs inn - blackstar village inn
+            blackstar church/bs church - blackstar church
+            blackstar research/bs research - blackstar village research
+            shrine - shrine of danaan
+            blackstar 5/blackstar5/bs5/bs 5 - blackstar crypt 5
+            blackstar 11/blackstar11/bs11/bs 11 - blackstar crypt 11
+            blackstar boss/bs boss/bsboss/blackstar 18/blackstar18/bs18/bs 18 - blackstar crypt 5
+
+            ASTRID
+            oct - astrid octagram
+            shant/astrid north- - north-west
+            zeroun/astrid north/mspg - astrid north
+
+            SAPPHIRE STREAM
+            ss - sapphire stream
+            <color> - (either white/green/blue/yellow/purple/brown/red/black grove)
+
+            SUOMI
+            vivianne/deoch - deoch temple
+            suomi inn/suomi bank - suomi inn
+            torb/suomi weap - weapon shop
+            fisk/suomi rog - special skill master
+            valdemar/suomi arm/suomi tai - armor shop
+            bertil/suomi pri - white magic master
+            hadrian/suomi wiz - black magic master
+            berg/suomi fig - combat skill master
+            goran/cherry - cherry farmer
+            alvar/grape - grape farmer
+            gudny/suomi rest - restaurant
+            viveka/suomi tav - tavern
+            thulin/suomi the - garamonde theatre
+
+            GRAMAIL
+            camille/gram - gramail temple
+            soccer/ronaldinho - soccer field
+            knight - knight's hall
+            aite/jail - dungeon (aite)
+            darkmaze/dark maze - dark maze
+            maze - loures loveers maze
+            throne - loures throne room
+            library/loures lib - library
+            jean - jean
+            lowell/loures weap - 2nd floor weapon
+            castle/recovery - recovery camp
+            blob - canal key 2 (blob)
+            skrull - canal key 1 (skrull)
+
+            KARLOPOS BEACH
+            karl~
+
+            LYNITH BEACH
+            para - paradise
+            patrick/sneks - patrick
+            low t/pirates - low tides
+
+            AMAN JUNGLE
+            vort - (vortigern chief in aj)
+            ori - (oriana in aj)
+            glen - (glenna (bank) in aj)
+            jov - (jovino (skill swap) in aj)
+            aj - entrance to aj 1
+            aj6 - (weylin for elemus hunt)
+            den - entrance to aj8 (a room that spawns dendrons)
+            hg
+            cc
+            cc7
+            yt
+            yt3
+            yt5
+            yt6
+            yt11
+            yt12
+            yt15
+
+            ANDOR
+            andor/andor ent/andor lobby/andor1/andor 1 - andor lobby
+            andor80/andor 80 - andor 80
+            andor140/andor 140/queen - andor 140 (queen room)
+
+            CHAOS
+            chaos/chaos ent/chaos 1/chaos1 - chaos ent
+            chaoshide/chaos hide/blokie - chaos hide (blokie)
+            chaos3/chaos 3 - chaos 3 exit
+            chaos12/chaos 12/chaos 13/chaos13/chaos 12 exit - chaos 12 exit
+            chaos25/chaos 25/chaos27/chaos 27 - chaos 25 side
+            chaos34/chaos 34 - chaos 34
+            chaos34end/chaos 34 end - chaos 34 end
+
+            CHADS
+            chads/chads1/chads 1 - chadul's realm 1
+            chads/chads12/chads 12 - chadul's realm 12
+            invasion - chadula rmy invasion
+
+            MEHADI
+            meh/meh ent/mehadi/mehadi ent - entrance
+            bhrigus - bhrigus
+            chandra/puinneag - chandra
+            flower - flower
+
+            CR
+            count~
+            cr/cr1/cr 1 - cr 1
+            cr31/cr 31 - cr 31
+
+            MOUNT GIRAGAN
+            mtg - mtg 1
+            mtg 10/mtg10 - mtg 10
+            mtg 13/mtg13 - mtg 13
+            mtg 18/mtg18 - mtg 18 (belt)
+            mtg 25/mtg25 - mtg 25
+            mtg 31/mtg31 - mtg 31
+            mtg 28/mtg28 - mtg 28
+            horn - tauren horn
+            nose - tauren nose ring
+
+            SHINEWOOD FOREST
+            sw/sw ent - sw ent
+            sw8/sw 8 - sw 8 (dss)
+            sw11/sw 11 - sw 11 (fae)
+            sw12/sw 12 - sw 12
+            sw17/sw 17 - sw 17 (hut)
+            sw22/sw 22 - sw 22
+            sw30/sw3 0 - sw 30 (hut)
+            phoe/sw35/sw 35 - phoenix altar
+            sw2/sw36/sw 36 - sw 36
+            sw37/sw 37 - sw 37
+            sw38/sw 38 - sw 38
+            sw39/sw 39 - sw 39
+            sw40/sw 40 - sw 40
+            sw41/sw 41 - sw 41
+            sw42/sw 42 - sw 42
+            sw43/sw 43 - sw 43
+
+            OREN ISLAND
+            fount/oren fount - oren fountain
+            wailen/oren shop - oren island shop0
+            balsama/ceres/oren bank - bank
+            narducio/ticio/oren arm - oren island armor shoppe
+            octavio/giotto/oct arm - octavio's armory
+            reto/oren magic - oren island magic shop1
+            alane/oren jew - oren island jewelry shop
+            deos/oren throne - oren island throne room
+            jung/oren jun/orenjun - jungle ent
+            tower - tower maze
+            sham ent - shamensyth ent
+            top b - top blazing wand
+            bot b - bottom blazing wand
+            nob - nobis ent
+            t - mob 2-11
+
+            ASILON
+            nulonna/asilon bank - asilon bank
+            braishi/asilon pot/asilon sto - asilon store
+            akum/juwerl/asilon weap - asilon weapon shop
+            inia/asilon train/med path/medpath - training room
+            winsom/archer/asilon arch - archer room
+            nean/bard/asilon bard - bard room
+            bisk/druid/asilon druid - druid room
+            taku/glad/gladiator/asilon glad - glad room
+            cellan/summy/summoner/asilon sum - summy room
+            mutaipo/feral/asilon feral - feral room
+            matuso/karura/asilon kar - karura room
+            motapa/komo/komodas/asilon komo - komo room
+
+            PLAMIT
+            plam/plamit/plam ent/plamit ent - plamit entrance
+            plam pot/plamit pot/suton - plamit potion shop
+            plam research/plamit research/gisaem - plamit research
+            plam armory/plamit armory/plam arm/plamit arm/zowell - plamit armory
+            plam bank/plamit bank/thorwil - plamit bank
+            egg farm - egg farming
+            bog - band of gales farming
+            bos - band of storms farming
+            plam boss/plamit boss/drakari - plamit boss
+
+            TAVALY
+            tav/tavaly village/tav vill/tav ent/tavaly - tavaly ent
+            sacred forest 19/sacred forest19 - sacred forest 19
+
+            NOAM
+            kelan/noam bank - noam bank
+            np17/np 17/noam17/noam 17 - noam 17
+
+            HWARONE
+            hwarone/hwarone ent/fc/mank - hwarone ent
+            ch/ch ent/cursed home/ch1 - cursed home
+            hwarone inn - hwarone inn
+            fc1 - alsaids fire canyon 1
+            fc2 - alsaids fire canyon 2
+
+            LOST RUINS
+            lr/lr ent/lost ruins - lost ruins
+            slab - marble vault
+
+            GLADIATOR ARENA
+            yen/glad arena/med a - gladiator arena
+
+            VELTAIN MINES
+            veltain/mines/vm/veltain mines - veltain mines ent
+
+            WATER DUNGEON
+            wd/water dungeon - water dungeon
+
+            MT. MERRY
+            erbie/mtmerry/mt merry - mt merry ent
+            mothererbie/mother erbie - mother erbie
+            filthyerbie/filthy erbie - filthy erbie
+            yeti - yeti
