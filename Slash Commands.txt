@@ -318,6 +318,13 @@ Walk destinations: (say /walk altar, /walk cc7, etc)
             SAPPHIRE STREAM
             ss - sapphire stream
             <color> - (either white/green/blue/yellow/purple/brown/red/black grove)
+            bat - mileth crypt 4
+            chest - mileth crypt 11
+            gfly - piet dungeon 11
+            leech - abel dungeon
+            shrieker - ew 18
+            fae - ew 19
+            rock - piet dungeon 12
 
             SUOMI
             vivianne/deoch - deoch temple
