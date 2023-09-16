@@ -128,7 +128,7 @@ QUEST
             andor q = andor queen's chest
             queen = queen's chest
             big/big t/big suo = big troupe prize bag
-            small/small t and small suo = small troupe prize bag
+            small/small t/small suo = small troupe prize bag
             troupe/suomi t = suomi troupe bag
             monk's s/monk s = monk's skull
             monk's s/priest s/pri s = priest's skull
